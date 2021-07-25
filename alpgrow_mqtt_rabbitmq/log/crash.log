@@ -1,0 +1,12 @@
+2021-07-25 14:59:45 =ERROR REPORT====
+Error in process <0.22155.2> with exit value:
+{function_clause,[{'Elixir.String',slice,[<<"AlpgrowMqttRabbitmq.">>,#{'__struct__' => 'Elixir.Range',first => 0,last => -2}],[{file,"lib/string.ex"},{line,2086}]},{'Elixir.ElixirSense.Core.Source',split_module_and_hint,3,[{file,"lib/elixir_sense/core/source.ex"},{line,44}]},{'Elixir.ElixirSense.Providers.Suggestion.Reducers.TypeSpecs',add_types,5,[{file,"lib/elixir_sense/providers/suggestion/reducers/type_specs.ex"},{line,43}]},{'Elixir.Enumerable.List',reduce,3,[{file,"lib/enum.ex"},{line,4280}]},{'Elixir.Enum',reduce_while,3,[{file,"lib/enum.ex"},{line,2431}]},{'Elixir.ElixirSense.Providers.Suggestion',find,4,[{file,"lib/elixir_sense/providers/suggestion.ex"},{line,112}]},{'Elixir.ElixirLS.LanguageServer.Providers.Completion',completion,4,[{file,"lib/language_server/providers/completion.ex"},{line,137}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,770}]}]}
+2021-07-25 15:02:24 =ERROR REPORT====
+Error in process <0.22421.2> with exit value:
+{function_clause,[{'Elixir.String',slice,[<<"AlpgrowMqttRabbitmq.">>,#{'__struct__' => 'Elixir.Range',first => 0,last => -2}],[{file,"lib/string.ex"},{line,2086}]},{'Elixir.ElixirSense.Core.Source',split_module_and_hint,3,[{file,"lib/elixir_sense/core/source.ex"},{line,44}]},{'Elixir.ElixirSense.Providers.Suggestion.Reducers.TypeSpecs',add_types,5,[{file,"lib/elixir_sense/providers/suggestion/reducers/type_specs.ex"},{line,43}]},{'Elixir.Enumerable.List',reduce,3,[{file,"lib/enum.ex"},{line,4280}]},{'Elixir.Enum',reduce_while,3,[{file,"lib/enum.ex"},{line,2431}]},{'Elixir.ElixirSense.Providers.Suggestion',find,4,[{file,"lib/elixir_sense/providers/suggestion.ex"},{line,112}]},{'Elixir.ElixirLS.LanguageServer.Providers.Completion',completion,4,[{file,"lib/language_server/providers/completion.ex"},{line,137}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,770}]}]}
+2021-07-25 15:48:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.303.0>,amqp_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},{id,channel_sup},{mfargs,{amqp_channel_sup,start_link,[network,<0.300.0>,<<"client 127.0.0.1:65111 -> 127.0.0.1:5672">>]}},{restart_type,temporary},{shutdown,infinity},{child_type,supervisor}]
+
